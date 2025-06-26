@@ -1,107 +1,88 @@
-# Global Weather App: Simple Weather Application
+# Weather App 🌤️
 
-The **Global Weather App** is a user-friendly weather application that allows users to check real-time temperature and various weather parameters for any location worldwide. It is built using **HTML**, **CSS**, **JavaScript**, and integrates with a **Weather API**.
+A modern, responsive weather application that provides real-time weather information for any location worldwide.
 
-<p>Click here to see live application: <a href="https://global-weather-app-dev.netlify.app">Global Weather App</a></p> 
+## Features
 
-<p>Click here to see updated (Dark mode toggle) live application: <a href="https://updated-weather-app.netlify.app/">Updated Weather App</a></p> 
+- 🌍 **Global Weather Data**: Get weather information for any city worldwide
+- 📍 **Current Location**: Automatically detect and show weather for your current location
+- 🌡️ **Detailed Information**: Temperature, humidity, pressure, visibility, and more
+- 🌅 **Sunrise & Sunset**: Daily sunrise and sunset times
+- ☀️ **UV Index**: Current UV index with safety recommendations
+- 📅 **7-Day Forecast**: Extended weather forecast
+- 🕐 **Hourly Forecast**: 24-hour temperature predictions
+- 🌙 **Dark Mode**: Toggle between light and dark themes
+- 📱 **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 
+## Technologies Used
 
-<div align="center">
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Weather API**: WeatherAPI.com
+- **Icons**: Font Awesome
+- **Deployment**: Vercel
 
-[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/devjainofficial/Weather-app)
-<img src="https://img.shields.io/badge/HacktoberFest-2024-blueviolet" alt="HacktoberFest Badge"/>
-<img src="https://img.shields.io/static/v1?label=%E2%AD%90&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
-<a href="https://github.com/devjainofficial" ><img src="https://img.shields.io/badge/Contributions-welcome-green.svg?style=flat&logo=github" alt="Contributions" /></a>
+## Live Demo
 
-</div>
+Visit the live application: [Weather App](https://weather-website-psi-ebon.vercel.app/)
 
-## 🌟 Features
+## Local Development
 
-- **Real-time Weather Data:** Get up-to-date temperature information for any location across the globe.
-- **Detailed Weather Parameters:** View essential weather details such as humidity, wind speed, and general conditions.
-- **Responsive Design:** The app works seamlessly on desktops, tablets, and smartphones.
-- **Light/Dark Mode:** Toggle between light and dark mode to suit your preferences.
-- **Simple UI:** Designed for ease of use, with an intuitive interface to quickly search for locations.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Farhan98125/Weather-Website.git
+   cd Weather-Website/Weather-app-main
+   ```
 
-## 🛠️ Technologies Used
+2. Get a free API key from [WeatherAPI.com](https://www.weatherapi.com/)
 
-- **HTML:** Structure of the web pages.
-- **CSS:** Styling for an aesthetically pleasing interface.
-- **JavaScript:** To fetch weather data from the API and add interactivity.
-- **Weather API:** Used to retrieve real-time weather data.
+3. Create a `.env` file in the root directory:
+   ```
+   WEATHER_API_KEY=your_api_key_here
+   ```
 
-## 🚀 How to Use
+4. Open `index.html` in your browser or use a local server
 
-1. **Fork and Contribute:**
-   - **Fork the Repository:**
-     Head over to the original repository and click the "Fork" button at the top-right corner.
-     
-2. **Clone your Forked Repository:**
-     After forking, clone the repository to your local machine:
-     ```bash
-     git clone https://github.com/your-username/Weather-app.git
-     ```
-3. **Open `index.html`:**
-   Open the `index.html` file in your preferred web browser.
+## Deployment
 
-4. **Enter Location:**
-   Type the location you want to check the weather for in the input field.
+For deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
-5. **View Weather Information:**
-   Press the "Get Weather" button to see the temperature and other details.
+## Project Structure
 
-6.  **Create a New Branch:**
-     Always make changes in a separate branch:
-     ```bash
-     git checkout -b feature-branch
-     ```
+```
+Weather-app-main/
+├── index.html          # Main HTML file
+├── css/
+│   ├── style.css      # Main styles
+│   └── modal.css      # Modal styles
+├── js/
+│   ├── main.js        # Main JavaScript functionality
+│   └── modal.js       # Modal functionality
+├── images/            # Weather icons and images
+├── api/
+│   └── weather.js     # Serverless API function
+├── vercel.json        # Vercel configuration
+└── README.md          # This file
+```
 
-   - **Make Your Changes:**
-     Implement the feature or fix the issue you want to work on.
+## API Usage
 
-   - **Commit Your Changes:**
-     Once changes are made, commit them:
-     ```bash
-     git add .
-     git commit -m "Brief description of your changes"
-     ```
+This app uses the WeatherAPI.com service to fetch weather data. The API calls are securely routed through a serverless function to protect the API key.
 
-   - **Push Your Changes:**
-     Push the changes to your forked repository:
-     ```bash
-     git push origin feature-branch
-     ```
+## Contributing
 
-   - **Create a Pull Request:**
-     Go to the original repository, open your fork, and submit a pull request. Describe the changes made.
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
 
-## 🌄 Screenshots
+## License
 
-### Light Mode
+This project is open source and available under the [MIT License](LICENSE).
 
-![image](https://github.com/devjainofficial/Weather-app/assets/69387311/2383af03-0ab9-424b-a4bb-95946f367c5d)
+## Author
 
-### Dark Mode
+**Farhan** - [GitHub Profile](https://github.com/Farhan98125)
 
-![darkmode](https://github.com/abhijeetsharnagat/Weather-app/assets/108009757/f77685f8-c428-416c-8992-56ac008c7d77)
+---
 
-## 🏗️ Contributing
-
-We welcome contributions! If you want to help improve the project or have suggestions, you can follow the steps in the **How to Use** section or refer to the detailed guide here.
-
-## 🌍 Our Contributors
-
-We value the amazing people who contribute to this project! You can check out all the contributors [here](https://github.com/devjainofficial/Weather-app/graphs/contributors).
-
-<div align="center">
-
-<a href="https://github.com/devjainofficial/Weather-app/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=devjainofficial/Weather-app" />
-</a>
-
-</div>
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+⭐ If you find this project helpful, please give it a star!
